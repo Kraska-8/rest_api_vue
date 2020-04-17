@@ -1,0 +1,24 @@
+{
+  "name": "rest_vue",
+  "version": "1.0.0",
+  "description": "rest api for vue project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "vue"
+  ],
+  "author": "Ekaterina Krasavtseva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
